@@ -1,0 +1,32 @@
+{
+  "id": "read_web_page_content",
+  "uuid": "aa2ebdf6-564e-4994-8d30-1b9f13f9518a",
+  "userSettings": [
+    {
+      "name": "pluginServer",
+      "label": "Plugin Server",
+      "placeholder": "https://...",
+      "description": "The URL of the plugin server",
+      "required": true
+    }
+  ],
+  "emoji": "📃",
+  "title": "Web Page Reader",
+  "openaiSpec": {
+    "name": "read_web_page_content",
+    "parameters": {
+      "type": "object",
+      "required": ["url"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "URL of the article to be summarized"
+        }
+      }
+    },
+    "description": "Read the content of a web page via its URL."
+  },
+  "system": true,
+  "implementationType": "javascript",
+  "outputType": "respond_to_ai"
+}
