@@ -14,7 +14,6 @@
   "title": "Web Page Reader",
   "openaiSpec": {
     "name": "read_web_page_content",
-    "strict": true,
     "parameters": {
       "type": "object",
       "required": ["url"],
