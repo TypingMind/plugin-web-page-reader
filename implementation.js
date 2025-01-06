@@ -1,6 +1,6 @@
 async function fetchPageContent(url, pluginServer) {
   const response = await fetch(
-    `${pluginServer}/get-content?url=${encodeURIComponent(url)}`
+    `${pluginServer}/web-page-reader/get-content?url=${encodeURIComponent(url)}`
   );
 
   if (!response.ok) {
