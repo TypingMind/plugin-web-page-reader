@@ -1,4 +1,4 @@
-# Web Page Reader
+# Read Web Page - Self-host Server
 
 Read the text content from a web URL.
 
