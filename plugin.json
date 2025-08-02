@@ -11,7 +11,7 @@
     }
   ],
   "emoji": "📃",
-  "title": "Web Page Reader",
+  "title": "Read Web Page (Plugin Server)",
   "openaiSpec": {
     "name": "read_web_page_content",
     "parameters": {
